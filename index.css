@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;1,400&family=Numans&display=swap');
+
+body {
+    color: white;
+    background: darkslategray;
+    background: radial-gradient(circle, rgba(54, 167, 82, 0.8) 0%, rgba(5, 25, 54) 90%);
+    margin: 2vh 4vw 2vh 4vw;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    font-family: 'Averia Serif Libre';
+    font-size: 1.7vw;
+}
+
+main {
+    height: 80vh;
+    text-align: center;
+}
+button {
+    border: none;
+    background: rgba(255, 255, 255, 0.411);
+    padding: 3vmin;
+    border-radius:1.5em;
+    color:#FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 1em;
+    font-family: 'Numans';
+    margin-bottom: 4vh;
+    margin-left: 2vw;
+}
+button:hover {
+    color: rgb(10, 13, 46);
+    background-color: #FFFFFF;
+}
+
+#cercle {
+    display: inline-block;
+    /*square*/
+    width: 60vmin;
+    height: 60vmin;
+    /*round corners*/
+    border-radius: 60vmin;
+    background: rgba(196, 196, 196, 0.644);
+    z-index: -1; /**place in the background**/
+}
+
+#person {
+    position: relative;
+    display: inline-block;
+    top: -70vh;
+    width: 40vw;
+    height: 75vh;
+}
+#head {
+    position: relative;
+    height: 20%;
+}
+img.head{
+    max-height: 100%;
+    width: auto;
+}
+#body {
+    position: relative;
+    top: -5vh;
+    height: 40%;
+    z-index: 1; /*placed on top*/
+}
+img.body{
+    max-height: 100%;
+    width: auto;
+}
+#bottom {
+    position: relative;
+    top: -20vh;
+    height: 50%;
+}
+img.bottom{
+    max-height: 100%;
+    width: auto;
+}
+@media screen and (max-width: 700px) {
+    #person {
+      display: none;
+    }
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    font-family: 'Numans';
+    font-style: italic;
+    font-size: 1.2vw;
+}
+a {
+    font-weight: bold;
+    color:rgb(10, 13, 46);
+}
