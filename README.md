@@ -1,8 +1,7 @@
 # Randomized Illustrations Project
 
 ## Description
-Générer aléatoirement des personnages (head/body/bottom).
--Projet réalisé dans le cadre d'une candidature pour un stage chez Wolfox.
+Projet réalisé dans le cadre d'une candidature pour un stage chez Wolfox : générer aléatoirement des personnages (head/body/bottom).
 
 ## Technologies
 HTML, CSS, Javascript
