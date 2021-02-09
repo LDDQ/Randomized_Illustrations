@@ -7,5 +7,5 @@ Générer aléatoirement des personnages (head/body/bottom).
 ## Technologies
 HTML, CSS, Javascript
 
-##Consultable en ligne 
+## Consultable en ligne 
 https://lddq.github.io/Randomized_Illustrations/
